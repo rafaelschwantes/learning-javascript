@@ -1,12 +1,12 @@
 /**
- Propriedades atributos e campos são sinonimos no javascript
+ Propriedades atributos e campos são sinônimos no javascript
 
- A classe é o meu molde que define o que eu quero ter
- e o objeto é a instancia desse molde
+ A classe é o meu molde e define a regra de negócio
+ O objeto é a instancia desse molde, ou seja, um elemento criado a partir dessa regra
 
  */
 
-//Criar uma classe para representar um cliente e não rpetir codigo
+//Criar uma classe para representar um cliente e não repetir código
 class Cliente{
     nome;
     cpf;
@@ -19,7 +19,7 @@ class Cliente{
 const cliente1 = new Cliente();
 const cliente2 = new Cliente();
 
-//Acesso aos atributos do objeto instanciado
+// atribuição de valores aos atributos da classe
 //Não preciso da palavra reservada const
 cliente1.nome = "Rafael";
 cliente1.cpf = 11122233344;
